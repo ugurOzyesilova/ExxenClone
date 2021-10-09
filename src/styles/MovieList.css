@@ -1,0 +1,44 @@
+.movieList {
+    width: 100vw;
+    display: flex;
+    flex-direction: row;
+
+}
+
+
+.movieList__movies {
+    height: 35vh;
+    display: flex;
+    overflow-x: scroll;
+    align-items: center;
+    margin-left: 70px;
+    width: 70vw;
+    border-right: 2px solid rgba(256, 196, 36, 0.1);
+    box-shadow: 12px 0px 10px -10px rgba(256, 196, 36, .2);
+}
+
+.movieList__movies::-webkit-scrollbar {
+    display: none;
+}
+
+.movieList__heading {
+
+    width: 30vw;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+
+.movieList__heading div h1 {
+    font-size: 55px;
+    color: rgba(256, 196, 36);
+
+}
+
+@media screen and (max-width: 1000px) {
+    .movieList__heading{
+        display:none;
+    }
+}

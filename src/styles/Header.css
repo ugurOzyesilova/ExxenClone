@@ -1,0 +1,21 @@
+.header img {
+    position: absolute;
+    z-index: 0;
+    width: 100vw;
+    height: 65vh;
+    object-fit: cover;
+}
+
+.image__mask {
+    position: relative;
+    height: 65vh;
+    width: 100vw;
+    object-fit: cover;
+    
+    background: linear-gradient(180deg, rgba(44, 31, 66, 0.5634628851540616) 5%, rgba(20, 20, 20) 95%);
+}
+
+.image__mask:hover{
+    filter: grayscale(1);
+}
+

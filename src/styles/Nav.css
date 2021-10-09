@@ -1,0 +1,45 @@
+.navbar {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    position: fixed;
+
+    height: 80px;
+    width: 100vw;
+    z-index: 1;
+}
+
+
+.navbar__logo {
+    display: flex;
+    align-items: center;
+    margin-left: 70px;
+}
+
+.navbar__logo span {
+    margin-left: 5px;
+    margin-bottom: 2px;
+    color: rgb(256, 196, 36);
+}
+
+.navbar__logo img {
+    position: relative;
+    height: 25px;
+    margin-bottom: 15px;
+    margin-left: 15px;
+    width: 70px;
+}
+
+.navbar__icons {
+    
+    display: flex;
+    align-items: center;
+}
+
+
+.avatar__icon, .search__icon {
+    padding: 5px;
+    margin-bottom:10px;
+    color: rgb(256, 196, 36);
+    filter: drop-shadow(1px 1px 8px rgb(256, 196, 36));
+}
